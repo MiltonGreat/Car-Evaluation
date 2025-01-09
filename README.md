@@ -4,6 +4,18 @@
 
 This project involves analyzing the Car Evaluation Dataset to predict car acceptability using machine learning techniques. The dataset contains categorical variables describing attributes of cars, such as Buying Price, Maintenance Cost, Number of Doors, Seating Capacity, Luggage Space, and Safety Level, along with the target variable Acceptability. The objective is to preprocess the data, apply one-hot encoding, train classification models, and evaluate their performance.
 
+### Quality Issues:
+
+Likely clean, but check for duplicate records or missing rows (rare).
+
+Cleaning:
+- Apply one-hot encoding for categorical variables.
+- Ensure no missing or inconsistent values in categorical features.
+
+Known Limitations:
+- Dataset focuses on categorical data, limiting its use for numeric-focused analyses.
+- Simplistic classification task.
+
 ### Dataset
 
 - Dataset Name: Car Evaluation Dataset
