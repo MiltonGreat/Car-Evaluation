@@ -2,15 +2,13 @@
 
 ### Project Overview
 
-This project involves analyzing the Car Evaluation Dataset to predict car acceptability using machine learning techniques. The dataset contains categorical variables describing attributes of cars, such as Buying Price, Maintenance Cost, Number of Doors, Seating Capacity, Luggage Space, and Safety Level, along with the target variable Acceptability. The objective is to preprocess the data, apply one-hot encoding, train classification models, and evaluate their performance.
+This project involves analyzing the Car Evaluation Dataset to predict car acceptability using machine learning techniques. The dataset contains categorical variables describing attributes of cars, such as Buying Price, Maintenance Cost, Number of Doors, Seating Capacity, Luggage Space, and Safety Level, along with the target variable Acceptability. 
+
+The objective is to preprocess the data, apply one-hot encoding, train classification models, and evaluate their performance.
 
 ### Dataset
 
-- Dataset Name: Car Evaluation Dataset
-- Source: UCI Machine Learning Repository
-- File Used: car_evaluation.csv
-
-Attributes:
+Car Evaluation Database was derived from a simple hierarchical decision model originally developed for the demonstration of DEX, M. Bohanec, V. Rajkovic: Expert system for decision making. Sistemica 1(1), pp. 145-157, 1990.). The model evaluates cars according to the following concept structure:
 
 - Buying: Price of the car (categories: vhigh, high, med, low)
 - Maint: Maintenance cost (categories: vhigh, high, med, low)
