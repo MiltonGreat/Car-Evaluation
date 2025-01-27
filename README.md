@@ -50,6 +50,10 @@ Car Evaluation Database was derived from a simple hierarchical decision model or
 - Random Forest performed slightly lower (87.28% accuracy) but provided valuable insights into feature importance.
 - The Safety feature was identified as one of the most influential factors in determining car acceptability.
 
+##### Feature Importance for Car Evaluation
+
+![screenshot-github com-2025 01 27-12_32_47](https://github.com/user-attachments/assets/44674afc-6901-46f5-96f3-159b5c98711c)
+
 ### Future Improvements
 
 - Hyperparameter Tuning: Experiment with model parameters to improve performance further.
