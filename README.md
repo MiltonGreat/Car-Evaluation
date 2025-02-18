@@ -55,8 +55,7 @@ Car Evaluation Database was derived from a simple hierarchical decision model or
 - Price was also a significant factor, with high-priced cars overwhelmingly classified as "unacceptable", raising potential concerns about model fairness.
 
 ##### Feature Importance for Car Evaluation
-
-![screenshot-github com-2025 01 27-12_32_47](https://github.com/user-attachments/assets/44674afc-6901-46f5-96f3-159b5c98711c)
+![features](https://github.com/user-attachments/assets/35a08a0a-57bd-480b-a945-df77b8431ac1)
 - Safety emerged as one of the most influential features, indicating a strong relationship between higher safety ratings and acceptability.
 - Price, especially high-price cars, consistently showed a bias towards being classified as "unacceptable," suggesting a need for further investigation into pricing-related biases.
 
