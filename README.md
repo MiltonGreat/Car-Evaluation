@@ -41,19 +41,6 @@ Car Evaluation Database was derived from a simple hierarchical decision model or
 - Extracted feature importance from the Random Forest model.
 - Visualized the most influential features using a bar plot.
 
-5. Fairness Considerations:
-
-- Investigated the class imbalance issue and its impact on model predictions, particularly for the rare classes: "good" and "vgood".
-- Analyzed potential bias in model predictions, such as the tendency to classify high-priced cars as "unacceptable".
-- Evaluated fairness with respect to important features like Safety and Price, highlighting biases in favor of lower-price and higher-safety cars.
-
-### Key Results
-
-- Logistic Regression achieved the highest accuracy (89.60%) with strong performance in predicting the "unacc" (unacceptable) class, but faced challenges in predicting the less frequent classes, "good" and "vgood".
-- Random Forest performed slightly lower (87.28%) in terms of accuracy but provided valuable insights into feature importance and was more precise in predicting the "unacc" class.
-- Safety and Capacity were identified as key features influencing car acceptability, with cars having low safety ratings being most often classified as "unacceptable".
-- Price was also a significant factor, with high-priced cars overwhelmingly classified as "unacceptable", raising potential concerns about model fairness.
-
 ##### Feature Importance for Car Evaluation
 ![features](https://github.com/user-attachments/assets/35a08a0a-57bd-480b-a945-df77b8431ac1)
 - Safety emerged as one of the most influential features, indicating a strong relationship between higher safety ratings and acceptability.
@@ -64,7 +51,6 @@ Car Evaluation Database was derived from a simple hierarchical decision model or
 - Hyperparameter Tuning: Experiment with tuning model parameters (e.g., for Random Forest) to improve model performance.
 - Advanced Models: Test more sophisticated algorithms such as Gradient Boosting or Neural Networks to enhance prediction accuracy, particularly for the minority classes.
 - Model Interpretability: Utilize techniques like SHAP or LIME to explain the model's predictions, offering more insight into the decision-making process.
-- Fairness Adjustments: Implement strategies to address class imbalance, such as oversampling or undersampling, and explore model adjustments to reduce bias in predicting certain classes, especially for high-priced cars.
 
 ### Source
 
